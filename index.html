@@ -78,17 +78,31 @@
                             </div>
                         </label>
                         <label class="hero-label"><span>Пошта</span>
-                            <div class="div-input"><input type="email" name="email" class="hero-input"/>
+                            <div class="div-input">
+                                <input type="email" 
+                                name="email" 
+                                class="hero-input"/>
                                 <svg class="input-svg">
                                     <use href="./images/sprite.svg#icon-email-black-18dp-1">
                                 </svg>
                             </div>
-                        </label></div>
-                        <label class="hero-label">Коментар<textarea  name="feedback" rows="5" placeholder="Введіть текст"></textarea></label>
+                        </label>
+                        <label class="hero-label">Коментар<textarea
+                             class="hero-textarea" 
+                             name="feedback" rows="5"
+                             placeholder="Введіть текст"
+                             ></textarea>
+                        </label>
+                    </div>
                     
                         <label class="hero-checkbox">
                             <input type="checkbox" name="policy" value="accept-policy" class="checkbox" />
-                             <span class="checkbox-text">Погоджуюся з розсилкою та приймаю <a href="#" class="checkbox-link"> Умови договору</a></span>
+                            <span class="checkbox-span">
+                                <svg class="checkbox-svg">
+                                    <use href="./images/sprite.svg#icon-Vector">
+                                </svg>
+                            </span>
+                             <span class="checkbox-text">Погоджуюся з розсилкою та приймаю <a href class="checkbox-link"> Умови договору</a></span>
                             </label>
                      <button type="submit" class="form-button">Відправити</button>
                     </form> 
