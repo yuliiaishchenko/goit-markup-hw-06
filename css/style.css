@@ -354,6 +354,7 @@ margin-bottom: 12px;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.875;
+letter-spacing: 0.06em;
     margin: auto;
     margin-top: 30px;
     background: var(--accent-text-color);
@@ -480,9 +481,10 @@ border: 1px solid rgba(33, 150, 243, 1);
     fill: var(--fon-text-color);
 }
 
-.checkbox-span:hover,
-.checkbox-span:focus {
-    border: 1px solid rgba(33, 150, 243, 1);
+
+.checkbox:focus+.checkbox-span,
+.checkbox:hover+.checkbox-span {
+    border-color: var(--accent-text-color);
 }
 
 .flex-hero {
